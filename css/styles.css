@@ -7,10 +7,10 @@ body {
     background: #f4f4f4;
 }
 header {
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
     padding: 20px 0;
-    text-align: center;
+    text-align: left;
 }
 header h1 {
     margin: 0;
@@ -22,7 +22,7 @@ header p {
 }
 nav {
     margin: 20px 0;
-    text-align: center;
+    text-align: left;
 }
 nav a {
     margin: 0 15px;
@@ -35,7 +35,7 @@ section {
     margin: 0 auto;
     padding: 20px;
     background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
 }
 section h2 {
     color: #333;
@@ -46,10 +46,10 @@ section p {
     margin: 15px 0;
 }
 footer {
-    text-align: center;
+    text-align: left;
     padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
     position: fixed;
     width: 100%;
     bottom: 0;
