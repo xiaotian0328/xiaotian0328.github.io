@@ -12,6 +12,8 @@ header {
     /* background: #fff; */
     color: #333;
     /* padding: 20px 0; */
+    margin: 0 auto;
+    padding: 20px;
     text-align: left;
 }
 header h1 {
@@ -22,10 +24,10 @@ header p {
     font-size: 1.2em;
     /* margin: 10px 0 0; */
 }
-/* nav {
-    /* margin: 20px 0; */
-    /* text-align: left; */
-} */
+nav {
+    margin: 0 auto;
+    padding: 20px;
+}
 nav a {
     /* margin: 0 15px; */
     text-decoration: none;
@@ -34,8 +36,8 @@ nav a {
 }
 section {
     max-width: 800px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
+    margin: 0 auto;
+    padding: 20px;
     /* background: #fff; */
     /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
 }
@@ -44,12 +46,13 @@ section h2 {
     /* border-bottom: 2px solid #333; */
     padding-bottom: 5px;
 }
-/* section p {
-    /* margin: 15px 0; */
-} */
+section p {
+    margin: 0 auto;
+}
 footer {
     /* text-align: left; */
-    /* padding: 10px 0; */
+    margin: 0 auto;
+    padding: 20px;
     /* background: #fff; */
     color: #333;
     position: static;
