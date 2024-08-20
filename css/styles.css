@@ -2,8 +2,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    margin: 0 auto;
+    padding: 20px;
     background: #f4f4f4;
 }
 header {
@@ -13,7 +15,7 @@ header {
     text-align: start;
 }
 header h1 {
-    margin: 0;
+    /* margin: 0; */
     font-size: 2.5em;
 }
 header p {
@@ -22,7 +24,7 @@ header p {
 }
 nav {
     margin: 20px 0;
-    text-align: start;
+    /* text-align: start; */
 }
 nav a {
     margin: 0 15px;
@@ -46,11 +48,11 @@ section p {
     margin: 15px 0;
 }
 footer {
-    text-align: start;
+    /* text-align: start; */
     padding: 10px 0;
     /* background: #fff; */
     color: #333;
-    position: fixed;
+    position: static;
     width: 100%;
     bottom: 0;
 }
